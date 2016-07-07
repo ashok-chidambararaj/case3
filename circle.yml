@@ -1,0 +1,16 @@
+## Customize the test machine
+machine:
+
+  timezone:
+    America/Los_Angeles # Set the timezone
+
+  # Version of ruby to use
+  java:
+    version: openjdk7
+
+
+
+## Customize test commands
+test:
+  override:
+    - echo -e 'success'
